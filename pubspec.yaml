@@ -1,0 +1,76 @@
+name: project
+description: "Projet d'une application mobile avec des outils pour producteur de musique avec Flutter."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.30
+  just_audio_background: ^0.0.1-beta.15
+  url_launcher: ^6.0.9
+  flutter_sound: ^9.2.8
+  cupertino_icons: ^1.0.8
+  permission_handler: ^11.4.0
+  path_provider: ^2.1.1
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.9.2
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_icons:
+    android: true
+    ios: true
+    image_path: 'assets/logo.png'
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/logo.png
+    - assets/settings_logo.png
+    - assets/navarrow_right.png
+    - assets/arrow_access.png
+    - assets/dictaphone_logo.png
+    - assets/metronome_logo.png
+    - assets/tap_bpm_logo.png
+    - assets/navarrow_left.png
+    - assets/scale_logo.png
+    - assets/mixtip_logo.png
+    - assets/tap_ici_button.png
+    - assets/navarrow_leave.png
+    - assets/click.wav
+    - assets/metronome_image.png
+    - assets/scale_list_image.png
+    - assets/eyes_darkmod.gif
+    - assets/rocket_link_github.png
+    - assets/dictaphone_image.png
+    - assets/exit_logo.png
+    - assets/recording_image.
+    - assets/edit_logo.png
+    - assets/description_logo.png
+    - assets/mix_tip_image.png
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/montserrat_regular.otf
+        - asset : fonts/montserrat_bold.otf
+        - asset: fonts/montserrat_semibold.otf
+
+
+
